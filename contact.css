@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    font-family: "poppins", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+   
+}
+body{
+    width: 100%;
+    height: 100vh;
+   
+}
+header{
+    margin-top: 20px;
+    position: ficyan;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 3rem;
+    color: cyan;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+nav a:hover,
+nav a.active{
+    color: cyan;
+    border-bottom: 3px solid cyan;
+}
+h2:hover{
+    transform: scale(1.1);
+    
+    color: cyan;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.1s ease;}
+    h2{
+        color: cyan !important;
+        font-size: xx-large;
+    }
+    .heading2{
+        font-size: 4rem;
+        text-align: center;
+        margin: 5rem 0;
+
+    }
+    .contact-form{
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-title h2{
+    font-size:40px ;
+    font-weight: 600;
+    color: cyan;
+    margin-bottom: 5px;
+}
+.contact-title hr{
+    border: none ;
+    width: 120px;
+    height: 5px;
+    background-color: cyan;
+    border-radius: 10px;
+    margin-bottom: 20px ;
+}
+.inputs{
+    width: 150%;
+  height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color:whitesmoke ;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.contact-left textarea{
+height: 140px;
+padding-top: 15px;
+border-radius: 20px;
+position: relative;
+}
+.inputs:focus{
+    border: 2px solid cyan;
+
+}
+.inputs::placeholder{
+    color: #a9a9a9;
+
+}
+.contact-left button:hover{
+    transform: scale(1.1);
+    color: darkcyan;
+    box-shadow: 0 0 24px 0 darkcyan;
+    transition: 0.4s;
+    color: black;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: whitesmoke;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, cyan,black);
+    cursor: pointer;
+    
+}
+html {
+    box-sizing: border-box;
+    background: transparent;
+  }
+  
+  *,
+  *:after,
+  *:before {
+    box-sizing: inherit;
+  }
+  
+  .clip {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .svg--source {
+    display: none
+  }
+  
+  .svg--icon {
+    width: 100%;
+    max-width: 5rem;
+    height: 100%;
+    max-height: 5rem;
+    display: block;
+    margin: 0 auto;
+    fill: currentColor
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .share {
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin: .5rem 1rem .5rem 0;
+    color: cyan;
+    border: .125rem solid transparent;
+    box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+    border-radius: 50%;
+    transition: 250ms;
+    
+    &:last-child {
+      margin-right: 0
+    }
+    
+    &:hover,
+    &:focus {
+      //background: #f1f1f1;
+    }
+    
+    &:focus {
+      outline-color: inherit;
+    }
+  }
+  
+  .twitter {
+    &:hover,
+    &:focus {
+      color: black;
+      box-shadow: 0 0 24px 0 black
+    }
+  }
+  
+  .github {
+    &:hover,
+    &:focus {
+      color: purple;
+      box-shadow: 0 0 24px 0 purple
+    }
+  }
+  
+  .pinterest {
+    &:hover,
+    &:focus {
+      color: #bd081c;
+      box-shadow: 0 0 24px 0 #bd081c
+    }
+  }
+  
+  .youtube {
+    &:hover,
+    &:focus {
+      color: #cd201f;
+      box-shadow: 0 0 24px 0 #cd201f
+    }
+  }
+  
+  .facebook {
+    &:hover,
+    &:focus {
+      color: #3b5998;
+      box-shadow: 0 0 24px 0 #3b5998
+    }
+  }
+  
+  .google {
+    &:hover,
+    &:focus {
+      color: #3b5998;
+      box-shadow: 0 0 24px 0 #3b5998
+    }
+  }
+  @media only screen  and (max-width: 800px){
+    .inputs{
+        width: 80vw;
+    }
+    .wrapper{
+        width: 105vw;
+        
+    }
+    .logo{
+        font-size: 16px;
+    }
+    nav a{
+        font: 1.7em sans-serif;
+        display: flex;
+        color: #25283B;
+    }
+
+  }
+  .backvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    top:0;
+  }
